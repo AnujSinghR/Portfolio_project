@@ -1,0 +1,53 @@
+.education-card{
+    width: 60vh;
+    display: flex;
+    gap:1.5vh;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 2vw;
+    background-color: #e2e8f0;
+    box-shadow: 0px 0px 20px #e2e8f0;
+    color: aliceblue;
+}
+.education-name{
+text-transform: uppercase;
+color: darkslategray;
+font-size: 30px;
+}
+.education-year-card{
+    width: 100%;
+    font-size: 25px;
+    gap: 2vh;
+    color: darkslategray;
+    display: flex;
+    justify-content: center;
+}
+.education-year{
+    color:darkslategray;
+    font-size: 25px;
+    font-style: italic;
+}
+.education-discription{
+    font-family: "Fira Sans", sans-serif;
+    color: black;
+    font-weight: 350;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.education-full-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7vh;
+}
+@media screen and (max-width: 700px){
+    .education-card{
+        width: 100%;
+    }
+    .education-discription{
+        font-size: 20px;
+    }
+}

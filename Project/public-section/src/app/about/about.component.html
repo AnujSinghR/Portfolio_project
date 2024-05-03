@@ -1,0 +1,31 @@
+<div class="about-section">
+    <div class="about-text">About Us</div>
+    <div class="about-comp">
+       <div class="about-image"><img class="about-main-image" [src]="client_image"/>
+       <div class="anime1"></div>
+    </div>
+       <div class="about">
+        <div class="about-btns-section">
+            <button type="button" class="about-btns" (click)="aboutClicked()">ABOUT</button>
+            <button type="button" class="about-btns" (click)="hobbiesClicked()">HOBBIES</button>
+            <button type="button" class="about-btns" (click)="strengthsClicked()">STRENGTHS</button>
+            <button type="button" class="about-btns" (click)="languagesClicked()">LANGUAGES</button>
+        </div>
+        <div class="about-main-description">
+        <div class="about-description" *ngIf="comp_about">
+              <app-discription [Discription]="userAboutDetails.aboutMeNav[0]"></app-discription>
+        </div>
+        <div class="about-description" *ngIf="comp_hobbies">
+            <app-hobbies [hobbies]="userAboutDetails.aboutMeNav[3]"></app-hobbies>
+        </div>
+        <div class="about-description" *ngIf="comp_strengths">
+            <app-strengths [strengths]="userAboutDetails.aboutMeNav[2]"></app-strengths>
+        </div>
+        <div class="about-description" *ngIf="comp_languages">
+              <app-languages [languages]="userAboutDetails.aboutMeNav[1]"></app-languages>
+        </div>
+       </div>
+    </div>
+    </div>
+</div>
+

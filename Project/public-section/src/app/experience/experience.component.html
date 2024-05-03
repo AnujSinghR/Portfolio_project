@@ -1,0 +1,12 @@
+<div class="experience-section">
+    <div class="experience-text">EXPERIENCE</div>
+    <div class="experience-comp">
+    <div class="experience-btns">
+        <button type="button"class='btns' *ngIf="experience.experienceCategoryModelList[0].IsActive" (click)="projectClicked()">Projects</button>
+        <button type="button"class='btns' *ngIf="experience.experienceCategoryModelList[1].IsActive" (click)="experienceClicked()">Experience</button>
+    </div>
+    <div class="experiences">
+        <app-add-experience [experience]="experience.experienceCategoryModelList[experiencetype]"></app-add-experience>
+    </div>
+</div>
+</div>

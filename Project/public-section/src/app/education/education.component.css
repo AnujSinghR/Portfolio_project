@@ -1,0 +1,20 @@
+.education-section{
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    padding: 4vw;
+}
+.education-title{
+text-transform: uppercase;
+text-align: center;
+color: darkslategray;
+font-size: 4vh;
+}
+.educations{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vw;
+    gap: 7vh;
+    flex-wrap: wrap;
+}

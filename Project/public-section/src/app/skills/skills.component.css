@@ -1,0 +1,20 @@
+.skills-section{
+    width: 100%;
+    display: inline-block;
+    background-color: #e2e8f0;
+    padding: 4vw;
+}
+.skills-text{
+    text-transform: uppercase;
+    color: darkslategray;
+    text-align: center;
+    font-size: 4vh;
+}
+.skills{
+    width: 100%;
+    display: flex;
+    padding:10vw 3vw;
+    justify-content: center;
+    gap: 7vh;
+    flex-wrap: wrap;
+}

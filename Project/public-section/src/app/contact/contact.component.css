@@ -1,0 +1,154 @@
+.contact-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 0px;
+    gap: 5vh;
+    background-color: #e2e8f0;
+}
+.contact-title{
+text-transform: uppercase;
+text-align: center;
+color: darkslategray;
+font-size: 4vh;
+}
+.contact-comp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+  width: 100%;
+}
+.contact-text{
+  color: black;
+    font-size: 19px;
+    text-align: justify;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.5;
+    font-weight: 350;
+    width: 70%;
+}
+.contact-form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3vw;
+    gap: 2vh;
+    flex-wrap: wrap;
+}
+.input-email{
+  width: 80%;
+  height: 4vh;
+  font-size: 17px;
+  border-radius: 12px;
+  border: none;
+  background-color: #e2e8f0;
+  padding: 1vh;
+}
+.contact-mail{
+  width: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 0px 20px white;
+  padding: 3vh;
+  border-radius: 30px;
+  gap: 3vh;
+  justify-content: center;
+}
+.contact-btns{
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+.contact-btn{
+    width: 60%;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 2vh;
+}
+.textarea-email{
+    width: 80%;
+    font-size: 17px;
+    background-color: #e2e8f0;
+    padding: 10px;
+    border-radius: 15px;
+    height: 25vh;
+}
+.email-submit-btn{
+  width: 20vh;
+  height: 4vh;
+  border-radius: 14px;
+  border: 1px solid darkgray;
+  font-size: 20px;
+  background-color: #e2e8f0;
+}
+/* btn section */
+.social-links,.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-btn {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    background: white;
+    margin: 5px;
+    transition: 0.3s;
+    justify-content: center;
+  }
+  
+  .social-btn svg {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .social-btn span {
+    width: 0px;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  .social-btn:hover {
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  .social-btn:hover span {
+    padding: 2px;
+    width: 80px;
+  }
+  
+  #twitter svg {
+    fill: #1da1f2;
+  }
+  
+  #linkedin svg {
+    fill: #0e76a8;
+  }
+  
+  #github {
+    fill: #333;
+  }
+  @media screen and (max-width: 480px){
+    .input-email{
+      width: 100%;
+    }
+    .textarea-email{
+      width: 100%;
+    }
+  }
+  

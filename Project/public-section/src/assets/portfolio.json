@@ -1,0 +1,297 @@
+{
+  "portfolio": {
+    "userId": 1,
+    "name": "Nicolas Wadoux",
+    "email": "Nic@test.com",
+    "photoProfile": "https://www.gravatar.com/avatar/4798617496366fdde2c1c3b69d9293e9?s=250&d=mm&r=x",
+    "description": "IT Student, Web and Mobile developer"
+  },
+  "aboutUs": {
+    "aboutMeId": 1,
+    "portfolioUserId": 1,
+    "photoFilePath": "C:/user/1.jpg",
+    "description": "",
+    "aboutMeNav": [
+      {
+        "id": 1,
+        "aboutMeId": 1,
+        "isActive":true,
+        "aboutMeName": "Presentation",
+        "imgaeUrl": "",
+        "description": "Currently in a vacational degree regarding multisupport IT development, in work-study, I am a young student wishing to specialize in web and mobile development. I focus my studies in this area, guided by my desire to learn and my curiosity. As a passionate, I like to actively participate in the activities of a company, but also create personal projects, with the aim of increase my skills.\n\nWeb and mobile development appeared as obvious during my schooling. Creating ever more sustainable web applications, concerned about the user experience, is very important for me. Web and mobile technologies are changing our lives, and I want to be part of this change.\n\nIf you want to learn more about me, or get in touch, don't hesitate! You can explore this website nor download my CV! :)"
+      },
+      {
+        "id": 2,
+        "aboutMeId": 1,
+        "isActive":true,
+        "aboutMeName": "Language",
+        "imgaeUrl": "",
+        "description": "If you want to learn more about me, or get in touch, don't hesitate! You can explore this website nor download my CV! :)"
+      },
+      {
+        "id": 3,
+        "aboutMeId": 1,
+        "isActive":true,
+        "aboutMeName": "Soft Skill",
+        "imgaeUrl": "",
+        "description": "Emotional intelligence: I am empathic, friendly and always optimistic\nRelationship intelligence: Team spirit, always acts to maintain positive cooperation\nCuriosity: I always like to learn more about every possible subjects\nPunctuality and good time management\nResolving ability: I like to find the simplest solution to meet a need, whether alone or teaming"
+      },
+      {
+        "id": 4,
+        "aboutMeId": 1,
+        "isActive":true,
+        "aboutMeName": "Hobbies",
+        "imgaeUrl": "",
+        "description": "- Play violin -\nI play violin since 2016.\n\nI participated in charities such as \"Octobre rose\" (Pink October). Also on stage, during senior meals on Christmas holidays, and some concerts in bars!\n\n- Travel / Culture -\nI would like to travel all around the world, other countries and their own culture fascinate me. Without forgetting the culinary culture ;p\n\n- Baking -\nSpeaking about food, who doesn't love cakes? Yule logs, verrines, choux buns, macaroons, I love baking!"
+      }
+    ]
+  },
+  "competeces": {
+    "competenceId": 1,
+    "portfolioUserId": 1,
+    "name": "Competences",
+    "description": "Competences discription",
+    "skillCategory": [
+      {
+        "skillCategoryId": 1,
+        "skillCategory": "Web",
+        "competenceId": 1,
+        "skillEntityList": [
+          {
+            "id": 1,
+            "skillname": "HTML/JS/CSS",
+            "skillCategoryId": 1,
+            "description": null,
+            "skillRate": 80
+          },
+          {
+            "id": 2,
+            "skillname": "Angular",
+            "skillCategoryId": 1,
+            "description": null,
+            "skillRate": 60
+          },
+          {
+            "id": 3,
+            "skillname": "NodeJS",
+            "skillCategoryId": 1,
+            "description": null,
+            "skillRate": 70
+          }
+        ]
+      },
+      {
+        "skillCategoryId": 2,
+        "skillCategory": "Data Base",
+        "competenceId": 1,
+        "skillEntityList": [
+          {
+            "id": 4,
+            "skillname": "MySql",
+            "skillCategoryId": 2,
+            "description": null,
+            "skillRate": 80
+          },
+          {
+            "id": 5,
+            "skillname": "PgSql",
+            "skillCategoryId": 2,
+            "description": null,
+            "skillRate": 40
+          },
+          {
+            "id": 6,
+            "skillname": "PL/SQL",
+            "skillCategoryId": 2,
+            "description": null,
+            "skillRate": 50
+          },
+          {
+            "id": 7,
+            "skillname": "Oracle",
+            "skillCategoryId": 2,
+            "description": null,
+            "skillRate": 20
+          }
+        ]
+      },
+      {
+        "skillCategoryId": 3,
+        "skillCategory": "Programming",
+        "competenceId": 1,
+        "skillEntityList": [
+          {
+            "id": 8,
+            "skillname": "C#",
+            "skillCategoryId": 3,
+            "description": null,
+            "skillRate": 90
+          },
+          {
+            "id": 9,
+            "skillname": "Kotlin(Android)",
+            "skillCategoryId": 3,
+            "description": null,
+            "skillRate": 20
+          },
+          {
+            "id": 10,
+            "skillname": "Java",
+            "skillCategoryId": 3,
+            "description": null,
+            "skillRate": 70
+          },
+          {
+            "id": 11,
+            "skillname": "UML",
+            "skillCategoryId": 3,
+            "description": null,
+            "skillRate": 60
+          }
+        ]
+      },
+      {
+        "skillCategoryId": 4,
+        "skillCategory": "Others",
+        "competenceId": 1,
+        "skillEntityList": [
+          {
+            "id": 12,
+            "skillname": "Scrum",
+            "skillCategoryId": 4,
+            "description": null,
+            "skillRate": 90
+          },
+          {
+            "id": 13,
+            "skillname": "GIT/SVN",
+            "skillCategoryId": 4,
+            "description": null,
+            "skillRate": 90
+          },
+          {
+            "id": 14,
+            "skillname": "PhotoShop",
+            "skillCategoryId": 4,
+            "description": null,
+            "skillRate": 90
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "educationId": 1,
+    "portPofolioId": 1,
+    "name": "Education Section",
+    "educationDescription": "Fill about education and ",
+    "enable": true,
+    "educationDetailModelList": [
+      {
+        "educationDetailId": 1,
+        "educationId": 1,
+        "name": "BCA",
+        "educationalDescription": "I am a diligent Bachelor of Computer Applications (BCA) student, deeply passionate about the dynamic world of technology. Equipped with a solid understanding of programming languages like Java, C++, Python, and SQL, I thrive in problem-solving and software development. Through collaborative projects and coursework, I ve honed my skills in web development, database management, and algorithm design. My commitment to continuous learning drives me to stay updated with the latest advancements in the field. With a blend of technical expertise and a collaborative spirit, I m poised to make impactful contributions in the realm of computer science.",
+        "startYear": 2003,
+        "endYear": 2007
+      },
+      {
+        "educationDetailId": 2,
+        "educationId": 1,
+        "name": "12th",
+        "educationalDescription": "I am a dedicated 12th-grade student with a keen interest in exploring the world of knowledge and discovery. Eager to excel in academics and beyond, I approach every challenge with enthusiasm and determination. With a strong foundation in subjects like mathematics, science, and literature, I strive to expand my horizons and pursue my passions. Whether it's through participating in extracurricular activities, engaging in community service, or delving into independent projects, I am committed to personal growth and academic excellence. As I prepare to embark on the next chapter of my journey, I am excited to embrace new opportunities and make meaningful contributions to the world around me.",
+        "startYear": 2002,
+        "endYear": 2003
+      },
+      {
+        "educationDetailId": 3,
+        "educationId": 1,
+        "name": "10th",
+        "educationalDescription": "I am a dedicated 10th-grade student with a keen interest in exploring the world of knowledge and discovery. Eager to excel in academics and beyond, I approach every challenge with enthusiasm and determination. With a strong foundation in subjects like mathematics, science, and literature, I strive to expand my horizons and pursue my passions. Whether it's through participating in extracurricular activities, engaging in community service, or delving into independent projects, I am committed to personal growth and academic excellence. As I prepare to embark on the next chapter of my journey, I am excited to embrace new opportunities and make meaningful contributions to the world around me.",
+        "startYear": 2000,
+        "endYear": 2001
+      }
+    ]
+  },
+  "experience": {
+    "experienceId": 1,
+    "portfolioId": 1,
+    "name": "Experience",
+    "enable": true,
+    "experienceCategoryModelList": [
+      {
+        "experienceCategoryId": 1,
+        "experienceId": 1,
+        "IsActive":true,
+        "categoryName": "Projects",
+        "experienceDetailsEntities": [
+          {
+            "experienceDetailId": 1,
+            "experienceCategoryId": 1,
+            "name": "Something1",
+            "experiencedescription": "This is a portfolio site created for client\nhtml",
+            "img": ""
+          },
+          {
+            "experienceDetailId": 2,
+            "experienceCategoryId": 1,
+            "name": "Something2",
+            "experiencedescription": "This is a portfolio site created for client\nhtml",
+            "img": ""
+          },
+          {
+            "experienceDetailId": 3,
+            "experienceCategoryId": 1,
+            "name": "Something3",
+            "experiencedescription": "This is a portfolio site created for client\nhtml",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "experienceCategoryId": 2,
+        "experienceId": 1,
+        "IsActive":true,
+        "categoryName": "Experience",
+        "experienceDetailsEntities": [
+          {
+            "experienceDetailId": 4,
+            "experienceCategoryId": 2,
+            "name": "Something4",
+            "experiencedescription": "This is a portfolio site created for client\nhtml",
+            "img": ""
+          },
+          {
+            "experienceDetailId": 5,
+            "experienceCategoryId": 2,
+            "name": "Something5",
+            "experiencedescription": "This is a portfolio site created for client\nhtml",
+            "img": ""
+          }
+        ]
+      }
+    ]
+  },
+  "socialNetwork": {
+    "socialNetwork": [
+      {
+        "id": 1,
+        "portfolioId": 1,
+        "name": "LinkedIn",
+        "url": "http://linkedin.com"
+      },
+      {
+        "id": 2,
+        "portfolioId": 1,
+        "name": "Facebook",
+        "url": "http://Facebook.com"
+      },
+      {
+        "id": 3,
+        "portfolioId": 1,
+        "name": "Insta",
+        "url": "http://Insta.com"
+      }
+    ]
+  }
+}

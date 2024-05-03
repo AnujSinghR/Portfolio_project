@@ -1,0 +1,12 @@
+<div class="skills-cards-section">
+<div class="skills-card" *ngFor="let cards of Skills">
+    <div class="skills-title">{{cards.skillCategory}}</div>
+    <div class="skills-bar" *ngFor="let skills of cards.skillEntityList">
+    <div class="skills-top-sec">
+        <div class="skills-name">{{skills.skillname}}</div>
+        <div class="skills-percentage">{{skills.skillRate}}</div>
+    </div>
+    <div class="skills-level" [style.width]="skills.skillRate+'%'"></div>
+    </div>
+</div>
+</div>

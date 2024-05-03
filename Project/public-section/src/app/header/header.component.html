@@ -1,0 +1,21 @@
+<div class="header">
+<div class="left">Anuj Singh</div>
+<div class="right">
+    <a class="btns"  (click)="scrollToComponent('aboutme')">About Me</a>
+    <a class="btns" (click)="scrollToComponent('skills')">Skills</a>
+    <a class="btns" (click)="scrollToComponent('education')" >Education</a>
+    <a class="btns"  (click)="scrollToComponent('experience')">Experience</a>
+    <a class="btns" (click)="scrollToComponent('contact')">Contact me</a>
+    <img class="icon" (click)="menuClicked()" [src]="image"/>
+</div>
+</div>
+<div class="empty-div"></div>
+<div [className]="display">
+    <a class="menu-btns" (click)="scrollToComponent('aboutme')" >About Me</a>
+    <a class="menu-btns" (click)="scrollToComponent('skills')" >Skills</a>
+    <a class="menu-btns" (click)="scrollToComponent('education')">Education</a>
+    <a class="menu-btns" (click)="scrollToComponent('experience')">Experience</a>
+    <a class="menu-btns" (click)="scrollToComponent('contact')">Contact me</a>
+</div>
+
+

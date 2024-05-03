@@ -1,0 +1,130 @@
+.about-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding:4vw;
+    background-color: white;
+}
+.about-comp{
+    width: 100%;
+    gap:3vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.about-image{
+    width: 30%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+}
+.about-main-image{
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    position: relative;
+}
+.about{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    gap:3vh;
+    flex-direction: column;
+}
+.about-btns-section{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1vh;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.about-main-description{
+    width: 100%;
+    background-color:rgb(240, 240, 243);
+    box-shadow: 0px 0px 20px rgb(240, 240, 243);
+    color: black;
+    transition: 2s;
+    border-radius: 8px;
+    padding: 2vh;
+}
+.about-btns{
+    height: 4vh;
+    width: 17vh;
+    font-size: 19px;
+    background-color: rgb(240, 240, 243);
+    border: 1px solid white;
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+    transition: 3s;
+    border-radius: 25px;
+}
+.about-btns:hover{
+    box-shadow:  0px 0px 8px black,
+    0px 0px 12px black,
+    0px 0px 16px black;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px rgb(240, 240, 243);
+}
+.about-text{
+    color: darkslategray;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5vh;
+    font-family: math;
+}
+.anime1{
+    width: 88%;
+    height: 48vh;
+    border-radius: 10px;
+    position: absolute;
+    border: 2px solid black;
+    animation-name: animeO;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    
+}
+@keyframes animeO {
+    0%{
+        transform: rotatez(0deg);
+    }
+    50%{
+        transform: rotatez(20deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+}
+@media screen and (max-width: 700px){
+    .about-comp{
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-image{
+        width: 100%;
+        height: 42vh;
+    }
+    .about{
+        width: 100%;
+        height: 80%;
+    }
+    .about-main-description{
+        height: 86%;
+    }
+    .about-main-image{
+        height: 80%;
+    width: 70%;
+    }
+    .anime1{
+        width: 74%;
+        height: 35vh;        
+    }
+    
+}
+
